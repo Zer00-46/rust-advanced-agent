@@ -1,0 +1,18 @@
+[package]
+name = "rust-advanced-agent"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# APIs do Windows para manipulação de memória e processos
+windows-sys = { version = "0.52", features = [
+    "Win32_System_Threading",
+    "Win32_System_Memory",
+    "Win32_System_Diagnostics_Debug",
+    "Win32_Foundation"
+] }
+
+[profile.release]
+strip = true      # Remove Debug Symbols (eessencial to evasion)
+opt-level = "z"   # Optimizes to the best time possible the files
+lto = true        # Link Time Optimizatiom
