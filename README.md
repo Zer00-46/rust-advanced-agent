@@ -17,6 +17,6 @@ An advanced remote administration tool written in Rust for Windows, focusing on 
 ### Installation
 1. Clone the repository: git clone https://github.com/youruser/rust-advanced-agent.git
 
-Navigate to the directory: cd rust-advanced-agent
+2. Navigate to the directory: cd rust-advanced-agent
 
 3. Build the project: cargo build --release
