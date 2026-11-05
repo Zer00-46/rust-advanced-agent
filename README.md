@@ -20,3 +20,16 @@ An advanced remote administration tool written in Rust for Windows, focusing on 
 2. Navigate to the directory: cd rust-advanced-agent
 
 3. Build the project: cargo build --release
+
+Usage
+
+    Run the compiled binary on the target machine.
+    Use a listener (like Netcat) on the specified IP and port to receive the connection.
+    Available special commands:
+        privesc: Triggers the UAC Bypass mechanism.
+        camouflage: Performs process hollowing into svchost.exe.
+        exit: Terminates the session.
+
+### Disclaimer
+
+### This project is for educational purposes and authorized security testing only.
