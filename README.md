@@ -15,7 +15,7 @@ An advanced remote administration tool written in Rust for Windows, focusing on 
 - Windows SDK
 
 ### Installation
-1. Clone the repository: git clone https://github.com/youruser/rust-advanced-agent.git
+1. Clone the repository: git clone https://github.com/Zer00-46/rust-advanced-agent.git
 
 2. Navigate to the directory: cd rust-advanced-agent
 
