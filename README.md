@@ -19,7 +19,7 @@ An advanced remote administration tool written in Rust for Windows, focusing on 
    ```bash
 git clone https://github.com/youruser/rust-advanced-agent.git
 
-Navigate to the directory: cd rust-advanced-agent
+Navigate to the directory: $cd rust-advanced-agent
 
 3. Build the project:
 ```bash
