@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-# APIs do Windows para manipulação de memória e processos
+# Windows APIs to manipulate memory and running processes 
 windows-sys = { version = "0.52", features = [
     "Win32_System_Threading",
     "Win32_System_Memory",
